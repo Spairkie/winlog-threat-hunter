@@ -1,0 +1,10 @@
+{"event_id": 4624, "timestamp": "2026-08-18T08:00:00Z", "host": "WIN-DC01", "account_name": "jsmith", "source_ip": "10.1.4.22", "logon_type": 3, "status": "success"}
+{"event_id": 4688, "timestamp": "2026-08-18T08:01:00Z", "host": "WIN-DC01", "account_name": "jsmith", "process_name": "outlook.exe", "command_line": "outlook.exe"}
+{"event_id": 4624, "timestamp": "2026-08-18T08:05:00Z", "host": "WIN-WKS14", "account_name": "mrivera", "source_ip": "10.1.4.55", "logon_type": 2, "status": "success"}
+{"event_id": 4625, "timestamp": "2026-08-18T08:06:00Z", "host": "WIN-WKS14", "account_name": "mrivera", "source_ip": "10.1.4.55", "logon_type": 2, "status": "failure"}
+{"event_id": 4624, "timestamp": "2026-08-18T08:06:20Z", "host": "WIN-WKS14", "account_name": "mrivera", "source_ip": "10.1.4.55", "logon_type": 2, "status": "success"}
+{"event_id": 4688, "timestamp": "2026-08-18T08:07:00Z", "host": "WIN-WKS14", "account_name": "mrivera", "process_name": "explorer.exe", "command_line": "explorer.exe"}
+{"event_id": 4624, "timestamp": "2026-08-18T08:10:00Z", "host": "WIN-SVR03", "account_name": "svc_backup_job", "source_ip": "10.1.1.5", "logon_type": 5, "status": "success"}
+{"event_id": 4672, "timestamp": "2026-08-18T08:10:05Z", "host": "WIN-SVR03", "account_name": "svc_backup_job"}
+{"event_id": 4720, "timestamp": "2026-08-18T08:15:00Z", "host": "WIN-DC01", "account_name": "helpdesk_admin", "target_account": "kwong"}
+{"event_id": 4732, "timestamp": "2026-08-18T10:15:00Z", "host": "WIN-DC01", "account_name": "helpdesk_admin", "target_account": "kwong", "target_group": "HelpDesk-L1"}

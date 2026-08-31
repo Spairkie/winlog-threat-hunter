@@ -1,0 +1,5 @@
+# Core tool has zero third-party dependencies (stdlib only: json, csv,
+# argparse, dataclasses, datetime, re).
+#
+# Dev/test dependency:
+pytest>=7.0
