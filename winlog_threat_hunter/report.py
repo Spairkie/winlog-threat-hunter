@@ -17,7 +17,7 @@ _RESET = "\033[0m"
 
 
 def print_console_report(findings: list[Finding], event_count: int, *, color: bool = True) -> None:
-    print(f"\nWinLog Threat Hunter — analyzed {event_count} events, {len(findings)} finding(s)\n")
+    print(f"\nWinLog Threat Hunter - analyzed {event_count} events, {len(findings)} finding(s)\n")
 
     if not findings:
         print("No findings. Nothing in this dataset matched a detection rule.")

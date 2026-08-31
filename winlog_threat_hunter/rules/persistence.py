@@ -1,6 +1,6 @@
 """Flags the classic 'create an account, immediately add it to a
 privileged group' persistence pattern. Legitimate account provisioning
-this fast is rare outside of scripted onboarding — and even then it's
+this fast is rare outside of scripted onboarding - and even then it's
 worth an analyst confirming it was expected.
 """
 
@@ -45,7 +45,7 @@ class AdminPersistenceRule(Rule):
                     mitre_technique=self.mitre_technique,
                     description=(
                         f"Account '{created_account}' was created at {creation.timestamp.isoformat()} on {creation.host} "
-                        f"and added to group '{add.target_group}' at {add.timestamp.isoformat()} — "
+                        f"and added to group '{add.target_group}' at {add.timestamp.isoformat()} - "
                         f"{int((add.timestamp - creation.timestamp).total_seconds())} seconds later. "
                         "Confirm this matches an expected, ticketed onboarding action."
                     ),

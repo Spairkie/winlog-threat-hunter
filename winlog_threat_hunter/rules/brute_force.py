@@ -76,11 +76,11 @@ class BruteForceRule(Rule):
                         f"{first.timestamp.isoformat()} and {last.timestamp.isoformat()}."
                     )
                     if escalated:
-                        desc += " A successful logon from the same source followed shortly after — treat as a likely successful compromise, not just a blocked attempt."
+                        desc += " A successful logon from the same source followed shortly after - treat as a likely successful compromise, not just a blocked attempt."
 
                     findings.append(Finding(
                         rule_id=self.rule_id,
-                        title=self.title if not escalated else self.title + " — followed by successful logon",
+                        title=self.title if not escalated else self.title + " - followed by successful logon",
                         severity=severity,
                         mitre_technique=self.mitre_technique,
                         description=desc,

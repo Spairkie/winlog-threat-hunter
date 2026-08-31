@@ -54,7 +54,7 @@ class PrivilegeEscalationRule(Rule):
                 f"following a logon type {logon.logon_type} at {logon.timestamp.isoformat()} on {logon.host}."
             )
             if prior_failures:
-                desc += f" {len(prior_failures)} failed logon(s) for this account preceded the successful logon — review as a potential compromised-account escalation."
+                desc += f" {len(prior_failures)} failed logon(s) for this account preceded the successful logon - review as a potential compromised-account escalation."
 
             findings.append(Finding(
                 rule_id=self.rule_id,
